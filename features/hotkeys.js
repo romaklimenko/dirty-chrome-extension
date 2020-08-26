@@ -15,8 +15,6 @@
       return;
     }
 
-    console.log(event);
-
     switch (event.code) {
       case 'KeyH':
         window.location.href = 'https://d3.ru/';

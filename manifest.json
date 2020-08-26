@@ -1,6 +1,6 @@
 {
   "name": "d3.ru++",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Полезные твики для d3.ru.",
   "permissions": [ "*://d3.ru/user/*" ],
   "content_scripts": [
