@@ -1,6 +1,6 @@
 {
   "name": "d3.ru++",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Полезные твики для d3.ru.",
   "permissions": [ "*://d3.ru/user/*" ],
   "content_scripts": [
@@ -18,6 +18,10 @@
     },
     {
       "js": [ "features/hotkeys.js" ],
+      "matches": [ "*://d3.ru/*", "*://*.d3.ru/*" ]
+    },
+    {
+      "js": [ "features/war.js" ],
       "matches": [ "*://d3.ru/*", "*://*.d3.ru/*" ]
     }
   ],
