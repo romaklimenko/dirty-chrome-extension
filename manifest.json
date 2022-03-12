@@ -1,8 +1,8 @@
 {
   "name": "d3.ru++",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Полезные твики для d3.ru.",
-  "permissions": [ "*://d3.ru/user/*" ],
+  "host_permissions": [ "*://d3.ru/user/*" ],
   "content_scripts": [
     {
       "js": [ "common.js" ],
@@ -31,5 +31,5 @@
     "48": "images/favicon48.png",
     "128": "images/favicon128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
